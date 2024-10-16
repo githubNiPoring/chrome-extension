@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "GPTx Chat",
+  "version": "1.0",
+  "description": "Develope by Ghost-IT-TEAM",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": [
+    "https://gpt04-api-xynn.vercel.app/chat*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
